@@ -15,7 +15,7 @@
                 
                 height: auto;
                 background-image: linear-gradient(to top, blue, lightblue);
-                border-radius: 20px;
+                border-radius: 10px;
                 padding: 20px 0px 20px;
            
             }
@@ -28,17 +28,18 @@
                 top: 20px;
                 margin: auto;
                 color: white;*/
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.6em;
-            font-weight: normal;
-            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-            text-align: center;
-            width: auto;
-            margin-left: 30px;
-            margin-right: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 0.6em;
+                font-weight: normal;
+                text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+                text-align: center;
+                width: auto;
+                margin-left: 30px;
+                margin-right: 30px;
             }
             header h1 {
                 padding-top: 10px;
+                padding-bottom: 19px;
                 color: yellow;
                 border-color: black 1px;
             }
@@ -64,10 +65,18 @@
                 max-width: 220px;
             }
 
-            nav a{
-                padding-right: 10px;
+            nav > a {
+                text-decoration: none ;
+                color: rgb(0, 217, 255);
+                padding: 10px;
             }
             
+            nav > a:hover {
+                background-color: rgba(0, 0, 37, 0.123);
+                color:white;
+                border-radius: 3px;
+
+            }
             h1 {
             color: black;
             margin: auto;
@@ -85,19 +94,19 @@
                 <img id="logo" src="imagens/logo_mister-boteco.png" alt="logo">
 
                 <h1>Seja muito bem vindo ao Mister Boteco Bar e Petiscaria!</h1>
-
+                <nav>
+                    <a href="#" >Home</a>
+                    <a href="#" >Cardápio</a>
+                    <a href="#" >Como chegar</a>
+                    <a href="#" >Novidades</a>
+                    <a href="#" >Eventos</a>
+                    <a href="#" >Fale conosco</a>
+                 </nav> 
             </header>
 
-           
+            
         <main>
-            <nav>
-                <a href="#" >Home</a>
-                <a href="#" >Cardápio</a>
-                <a href="#" >Como Chegar</a>
-                <a href="#" >Novidades</a>
-                <a href="#" >Eventos</a>
-                <a href="#" >Fale conosco</a>
-             </nav> 
+           
              <h1>
                 Testando responsividade
             </h1>
